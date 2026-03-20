@@ -30,6 +30,8 @@ A minimalistic multi-tenant Next.js starter template with minimal setup and a mo
 
 ## Getting Started
 
+This project now targets Node.js 20.9+ and uses pnpm.
+
 1. Clone the repository
 
     ```bash
@@ -58,11 +60,20 @@ A minimalistic multi-tenant Next.js starter template with minimal setup and a mo
     pnpm dev
     ```
 
+## Common Commands
+
+```bash
+pnpm dev
+pnpm lint
+pnpm typecheck
+pnpm build
+```
+
 ## Features & Tech Stack
 
 - Next.js 16 App Router
 - TypeScript
-- Tailwind & Shadcn UI
+- Tailwind CSS 4 & shadcn/ui
 - Stack Auth
 - Multi-tenancy (teams/orgs)
 - Dark mode
